@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+div {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+img {
+  width: 400px;
+  height: 100px;
+}
+div > p {
+  color: gray;
+}
+
+div > a {
+  color: blue;
+  cursor: pointer;
+}
